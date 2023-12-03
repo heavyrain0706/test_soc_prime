@@ -1,0 +1,32 @@
+ body {
+    background-color: #292C3D;
+
+    &.lock {
+       overflow: hidden;
+    }
+ }
+
+ .wrapper {
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+ }
+
+ .container {
+    max-width: $mw4k;
+    padding: 0 15px;
+    margin: 0 auto;
+
+    @media (max-width: $fullHD) {
+       max-width: $mwFullHD;
+    }
+ }
+
+ * {
+    box-sizing: border-box;
+ }
+
+ img {
+    max-width: 100%;
+    min-height: 100%;
+ }

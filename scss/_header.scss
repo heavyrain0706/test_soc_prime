@@ -1,0 +1,54 @@
+.header {
+    background-color: #292C3D;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    border-bottom: 1px solid #3B3D4F;
+
+    // .header__container
+
+    &__container {
+        padding: 14px 12px;
+    }
+
+    // .header__inner
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    // .header__logo
+
+    &__logo {
+    }
+
+    // .header__profile
+
+    &__profile {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #EE9D23;
+    }
+
+    // .header__name
+
+    &__name {
+        color: #FFF;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+}
