@@ -567,6 +567,9 @@
             background-color: #386C66;
             width: 75%;
             height: 1px;
+            @media (max-width: 500px) {
+                width: 65%;
+            }
         }
     }
 

@@ -1095,6 +1095,12 @@ table {
   height: 1px;
 }
 
+@media (max-width: 500px) {
+  .card__plan-title::after {
+    width: 65%;
+  }
+}
+
 .card__plan-name {
   color: #F9F9F9;
   font-family: Inter;
